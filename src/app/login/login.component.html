@@ -1,0 +1,9 @@
+<p>login works!</p>
+<form [formGroup]="loginform">
+
+    <label for="">name</label>
+    <input type="text" formControlName="username">
+    <label for="">password</label>
+    <input type="text" formControlName="userpass">
+    <button (click)="log()">login</button>
+</form>
